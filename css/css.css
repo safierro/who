@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0 ;
+	padding: 0;
+	overflow:hidden;
+}
+.nen
+{
+	width:10000px;
+	height: 780px;
+	background-color: black;
+}
+.noidung
+{
+	width: 100vw;
+	height: 100vh;
+	font-size: 12pt;
+	float: left;
+	padding: 100px;
+	box-sizing: border-box;
+	color: #E1E1E1;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+.menu
+{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background-color: black;
+}
+.menu1
+{
+	width: 80%;
+	height: 100px;
+	box-sizing: border-box;
+	padding: 40px;
+	float: left;
+}
+.menu2
+{
+	width: 20%;
+	height: 100px;
+	float: left;
+	padding: 10px 0px 0px 30px;
+	box-sizing: border-box;
+}
+.menu1 a
+{
+	text-decoration: none;
+	color: #E1E1E1;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 13pt;
+}
+.menu1 :hover
+{
+	border-bottom: 3px solid #C3C3C3;
+}
+button
+{
+	width: 120px;
+	height: 40px;
+	background-color: black;
+	color:#E1E1E1 ;
+	border-radius: 50px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 10pt;
+}
+.menu2{
+	z-index:2;
+	top:5px; left:21px;
+	animation:logo 2s linear forwards;
+	opacity:0;}
+	
+@keyframes logo{
+	0%{top:-50px; opacity: 0}
+	40%{opacity:0.2;}
+    60%{top:-50px; opacity: 0.5}
+	80%{opacity:0.8;}
+	100%{opacity:1;}}
+.noidung img
+{
+	animation: bounceInLeft 2s linear forwards;
+}
